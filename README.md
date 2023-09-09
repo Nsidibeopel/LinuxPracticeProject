@@ -19,15 +19,20 @@ Using the command cd alone takes you to the previous directory. Please take a lo
 
 ![cd2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/de115e19-dd5b-4a68-a3af-f31d3054676e)
 
-The ls command: The ls command lists files and directories within a system. See the screenshot below.
+The ls command: The ls command lists files and directories within a system. Please take a look at the screenshot below.
 
 ![ls](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/f4dfe779-e56b-4ca1-a700-57e4c1692487)
 
-The command ls -R displays the files in the subdirectories. see the screenshot below.
+The command ls -R displays the files in the subdirectories. Please take a look at the screenshot below.
 
 ![ls2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8b13d8ac-6a4b-4ef2-8a44-86b4b4b9384e)
 
-The command ls -a shows the hidden and visible files, while the command ls -lh shows the file sizes in readable formats. See the screenshot below.
+The command ls -a shows the hidden and visible files, while the command ls -lh shows the file sizes in readable formats. Please take a look at the screenshot below.
 
 ![ls3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/15f00fbf-dce0-43d8-a376-4a8d62b30478)
 
+Cat Command: Cat is an acronym for Concatenate. It lists, combines and writes file content to the standard output. e.g. 'cat Firstfile' list the file, and the command 'tac Firstfile' show the content in reverse while the merge file command 'cat secoundfile thirdfile > Firstfile.txt' merges both file into the file named 'Firstfile'  see the screenshot below for each command
+
+![cat command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/20c231e4-8df2-46ae-abc7-6cb8865788eb)
+![tac command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8dad90dc-3706-42fd-9463-3370eba113e0)
+![cat merging file command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/215f94f8-6422-401f-8a12-e128a4f03b75)
