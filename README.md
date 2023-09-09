@@ -11,7 +11,7 @@ Pwd Command: pwd means present working directory. It helps you navigate to the c
 
 ![pwd](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/05406b65-1449-414c-9ac5-298c1cf343b6)
 
-cd Command: cd means Change Directory. This command helps you switch to a different directory. For example, the command cd Desktop takes you to the desktop folder. Please take a look at the screenshot below.
+Cd Command: cd means Change Directory. This command helps you switch to a different directory. For example, the command cd Desktop takes you to the desktop folder. Please take a look at the screenshot below.
 
 ![cd](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8b0c53d0-f5c7-4b47-808a-33eac40bbb71)
 
@@ -36,3 +36,17 @@ Cat Command: Cat is an acronym for Concatenate. It lists, combines and writes fi
 ![cat command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/20c231e4-8df2-46ae-abc7-6cb8865788eb)
 ![tac command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8dad90dc-3706-42fd-9463-3370eba113e0)
 ![cat merging file command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/215f94f8-6422-401f-8a12-e128a4f03b75)
+
+CP Command: This is a copy command in Linux used to copy file or directory and their content. e.g. 
+To copy a file to a directory, use the command 'cp Firstfile DevOps/'  see screenshot below
+
+![cp command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/bf000fa8-a727-4e1c-ab64-078914a3350d)
+
+To copy the content of a file into a new or another file in the same directory, use the command ' cp Firstfile Secoundfile' This copies the content of the file named Firstfile into the file named Secoundfile see screenshot below
+
+![cp command 2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/f3a24d88-4f75-4653-ab07-28948541ec76)
+
+To copy an entire directory, use the -R flag and the cp command. Type the source directory followed by the destination directory, e.g. 'cp -R Devops/ Documents/ see the screenshot below
+
+![cp command3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d69fa8d7-0706-4077-b3e5-a58af0210921)
+.
