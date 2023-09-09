@@ -31,6 +31,7 @@ The command ls -a shows the hidden and visible files, while the command ls -lh s
 
 ![ls3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/15f00fbf-dce0-43d8-a376-4a8d62b30478)
 
+
 Cat Command: Cat is an acronym for Concatenate. It lists, combines and writes file content to the standard output. e.g. 'cat Firstfile' list the file, and the command 'tac Firstfile' show the content in reverse while the merge file command 'cat secoundfile thirdfile > Firstfile.txt' merges both file into the file named 'Firstfile'  see the screenshot below for each command
 
 ![cat command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/20c231e4-8df2-46ae-abc7-6cb8865788eb)
@@ -48,5 +49,15 @@ To copy the content of a file into a new or another file in the same directory, 
 
 To copy an entire directory, use the -R flag and the cp command. Type the source directory followed by the destination directory, e.g. 'cp -R Devops/ Documents/ see the screenshot below
 
-![cp command3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d69fa8d7-0706-4077-b3e5-a58af0210921)
-.
+![cp command3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d69fa8d7-0706-4077-b3e5-a58af0210921).
+
+mv Command: This is a move or rename command in Linux. 
+To move a file, use the command 'mv Secoundfile Desktop/' see screenshot below.
+
+![mv command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ab6145a2-3008-4087-b691-ef13f6d141f3)
+
+To rename a file, use the mv command. eg 'mv /home/joanopel/sqlite /home/joanopel/Firstfile' see screenshot below
+
+![mv  or rename command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8fa70113-b229-4f06-8841-9a8b3b0e0f39)
+![mv  or rename command result](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/802bb5e6-eef5-4f73-90e5-8b9dd9a74ce2)
+
