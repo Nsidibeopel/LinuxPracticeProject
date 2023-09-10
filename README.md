@@ -132,8 +132,75 @@ To delete a file, use the command 'rm Thirdfile' See screenshot below.
     To create a new Tar file, use the command ' tar -cvf Newachive.tar home/joanopel/' See screenshot below.
     
  ![tar command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ef355df4-904a-48a5-beba-57285fb371aa)
-   
 
+   FILE PERMISSIONS AND OWNERSHIP
+
+21. chmod Command: This command helps to modify a file or directory read, write and execute permission.
+    To change the read, write and execute permission for the file named Firstfile and Firstfile.txt I used the following command 'chmod 777 Firstfile Firstfile.txt' see screenshot below
+
+   ![chmod command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/99b866c1-845d-4e9a-af08-79425397685f)
+
+
+22. chown Command: This command helps to change the ownership of a file or directory.
+    To change the ownership of a file named Firstfile.txt to a new guest user. I used the following command: 'sudo chown guest Firstfile.txt'. See the screenshot below.
+
+    ![chown command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/a8a90169-3c32-446d-9a23-e7b616782fae)
+
+23. jobs command: This command starts a process in the shell to display all the running processes and their status.
+    The command is 'ps' to display the status of jobs in the shell. Other options are -f, -n and -1 display various information. See the screenshot below.
+
+    ![jobs command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/5ee12da6-6f06-40ba-8b53-86a600b99850)
+    ![jobs -n -1 command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/079a234b-cf5d-4d47-ae63-7a1ada7d6143)
+
+24. kill command: This command terminates a program.
+    To do this, I used the command 'ps ux' to know the pid and the command 'kill 3821' to terminate the program.
+
+    ![ps ux command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ff817c3b-2d92-4b73-aba5-73bd32d41d40)
+    ![kill command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/4973b5ff-ff53-4a7f-9681-23323bb1e59f)
+
+25. ping command: This command is used to check if a network or server is reachable and troubleshoot connectivity issues
+    To do this, use the command ' ping google.com'
+
+    ![ping](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/0989aefe-b8cd-43cc-8f2d-94a98a71d4dd)
+
+26. wget command: This command helps to download files from the internet
+    To do this, I used the command 'wget https://wordpress.org/latest.zip' See the screenshot below
+
+    ![wget command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/55eaed98-e051-4900-a381-1d91642a9903)
+
+
+27. uname command: This is an acronym for Unix name. This command gives detailed information about the Linux operating system, the hardware and the kernel
+    To display the information, run the command 'uname -a' See the screenshot below.
+
+    ![uname command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ed36432e-5fae-43aa-8b95-b40546692c15)
+
+28. top Command: This command displays current processes and gives a real-time view of the system and can be used to identify and terminate a process that uses too many resources
+    To do this, I used the command 'top' on the CLI. See screenshot.
+
+    ![top command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/b425b893-603a-42f5-a208-67c8d7e4555f)
+
+29. history command: This command lists previously used commands and allows them to be reused without re-entering them
+    see screenshot below
+
+      ![history command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/05080fb6-08f4-47d5-a27e-f29d8c478d1c)
+      ![history command2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/e7e6a89c-1eae-4b97-b89a-a4b7aaafbebd)
+
+30. man command: This command provides information or a manual regarding a command in Linux, such as name description and options to use the command
+    see screenshot below
+
+    ![man command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/4b4afe60-b222-4e4f-ae00-3f65d8d6162b)
+
+31. echo command: This command displays a line of text or string in a file to the standard output
+    see screenshot below
+
+    ![echo command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/45e78fcb-c4dd-4c14-8969-5300f01c16e3)
+
+32. zip and unzip Comand: This command is used to compress files into zip files and is useful for reducing disk usage
+    To do this, run the command 'zip. Newachive.zip Frstfile' and to Unzip run the command 'unzip achive.zip.' see screenshot below.
+
+    ![zip command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/6cd51194-841f-4f2d-982b-5f80304505d5)
+    ![unzip command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/e83a2cbd-ac89-4b86-aba2-6ea6b6f760eb)
     
-
+33. 
+    
     
