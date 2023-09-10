@@ -61,3 +61,14 @@ To rename a file, use the mv command. eg 'mv /home/joanopel/sqlite /home/joanope
 ![mv  or rename command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/8fa70113-b229-4f06-8841-9a8b3b0e0f39)
 ![mv  or rename command result](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/802bb5e6-eef5-4f73-90e5-8b9dd9a74ce2)
 
+mkdir Command: This command creates one or multiple directories and sets permission for each. See below screenshots
+
+![mkdir](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/c27739b6-425b-43f2-9327-7c1c3a6c1550)
+![mkdir2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/a3d3e508-5d36-44f3-8316-4ed9878ad9f9)
+
+rmdir Command: This command permanently deletes an empty folder. 
+To remove an empty subdirectory and its main folder, use the command 'rmdir -p muzic/2020/songs. See screenshot below
+
+![rmdir2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/a135ba28-6941-4e87-9a54-9942cc2a3119)
+![rmdir3](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d126c463-2a8c-4703-9efb-e4421ae241e1)
+
