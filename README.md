@@ -76,3 +76,37 @@ To remove an empty subdirectory and its main folder, use the command 'rmdir -p m
 To delete a file, use the command 'rm Thirdfile' See screenshot below.
 
 ![rm command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/1b10e4fe-14f2-4447-8643-5b9f6dfb5342)
+
+11. Touch command: This command creates an empty file and generates and modifies a timestamp in the Linux command.
+    To create an HTML file in the Documents director named trial, use the command 'touch Trial.html'. See the screenshot below.
+
+    ![touch command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/95a1eff1-bc57-4f63-bcbb-195449a7780f)
+![touch command2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/1d3c3faf-90a5-44a8-8735-c1eff13e11b9)
+
+12. Locate Command: This command helps find a file in a database system.
+    An asterisk looks for content with two or more words, and adding the -i arguments will turn off case sensitivity. e.g. 'locate trial'. See screenshot below
+
+    ![locate command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/dd1991fb-81f1-413c-80fd-01f2cf10c680)
+
+13. Find Command: The find command searches for a file in a specific directory. e.g. 'find Documents -name trial.html' see screenshot below
+
+   ![find command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/55c8a801-630d-40b0-89f9-e89be2c40506)
+
+14. grep Command: grep stands for Global Regular Expression Print. The command searches for words by scanning through all the text in a particular file. This is especially 
+    useful in a large file log. e.g. To search for the word 'command' in the file named 'Firstfile', use the command 'grep command Firstfile' see screenshot below
+
+    ![grep command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/154affd3-7cab-404f-9cac-849db4fda080)
+
+15. df Command: This command displays the current directory or file disk space in KB or Percentage
+    Use the command 'df -h' to see the current directory disk space. See the screenshot below.
+
+![df command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ac42c8b7-2033-4b5a-bf5e-1a21bca69ea7)
+
+    To display the disk space a particular file uses, use the command 'df -h Firstfile' See screenshot.
+
+ ![df command2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/c88ce743-f905-48f9-af5c-4b47ce83ed76)
+   
+    
+
+
+    
