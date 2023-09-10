@@ -105,8 +105,35 @@ To delete a file, use the command 'rm Thirdfile' See screenshot below.
     To display the disk space a particular file uses, use the command 'df -h Firstfile' See screenshot.
 
  ![df command2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/c88ce743-f905-48f9-af5c-4b47ce83ed76)
-   
-    
 
+
+16. du Command: This command checks how much space a file or directory uses up. This command helps to tell which part of the system uses the storage excessively
+    e.g 'du Documents/DevOps' See screenshot below
+
+   ![du command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/6c909626-8a45-4544-a01b-37d9198c7314)
+   ![du command2](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/445a4105-dd89-41a1-81d5-84d52ed22038)
+
+17. Head command: This command displays the first lines of a file, and it can be customised to a specific number of lines.
+    To get the first six lines of a file, use the command 'head -n 6 Firstfile' see screenshot below
+    
+    ![head command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/0e459c84-ae04-40a9-ac02-ff637dcaa98d)
+
+18. Tail Command: This command displays the end of a file. It is especially useful to check for new data in a file or to check for error message
+    e.g. 'tail -n 4 Firstfile' see screenshot below
+    
+![tail command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/2d5179c1-c195-4905-86f5-dde524af8d61)
+
+19. diff command: This is an acronym for difference. This command compares two files line by line and displays the outputs of the parts that do not match.
+    To see the difference between a file named Firstfile and Firstfile.txt, I used the command ' diff Firstfile Fisrtfile.txt'. See the result in the screenshot below.
+
+   ![diff command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/aaa753cd-70ca-49ca-87f3-5e223a869251)
+
+20. tar Command: This command combines multiple files into a folder or file. It is similar to a ZIP file that compresses files together inside a folder
+    To create a new Tar file, use the command ' tar -cvf Newachive.tar home/joanopel/' See screenshot below.
+    
+ ![tar command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/ef355df4-904a-48a5-beba-57285fb371aa)
+   
+
+    
 
     
