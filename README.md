@@ -201,6 +201,51 @@ To delete a file, use the command 'rm Thirdfile' See screenshot below.
     ![zip command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/6cd51194-841f-4f2d-982b-5f80304505d5)
     ![unzip command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/e83a2cbd-ac89-4b86-aba2-6ea6b6f760eb)
     
-33. 
+33. hostname command: This command displays the system hostname and IP address
+    To do that, use the commands 'hostname' and 'hostname -i'. See screenshot below
+
+    ![hostname command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/65326eba-af8b-4cc2-962f-f111d32c5163)
+ 
+34. useradd and userdel command: Linux allow multiple users. The useradd command is used to add a new user. eg
+     'sudo adduser guest' see screenshot below
+
+     ![adduser command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/073b6bff-4ebc-420d-9131-200f35ecca3a)
+    
+35. apt-get command: This command handles advanced packaging tool (API) libraries in Linux. It is helpful to retrieve information and bundles from authenticated sources in other 
+    to manage, update or remove software and its dependencies.
+    To update Ubuntu, use the command 'sudo apt-get update' see screenshot below.
+
+    ![apt-get command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/a0750a4b-90bd-492c-8003-7546c67c3996)
+
+36. nano, vi, jed command: These are text editors, and Linux allows users to create and edit files via a text editor
+    To use the nano command 'nano Firstfile'
+    To use the vi command 'vi Firstfile'
+    To install jed, I used the command 'sudo apt install jed'
+    See the three screenshots below
+
+     ![nano command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/faf7316e-1b93-4c3f-84d4-ce35a078adde)
+     ![vi command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d420a4eb-8e31-41e8-a2e3-f979c8cbdf42)
+     ![jed command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/0e963701-259c-4d5e-9f23-74ba90780854)
+
+37. alias and unalias command: This command allows a file shortcut to be created with the same functionality as a command, file name or text. When executed, it instructs the shell to 
+    replace one string with another
+    To do this, run the command; alias h='history'
+    To delete it, run the command; unalias h
+    See screenshot below
+    
+   ![alias command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/4d17ac56-f44d-4516-8ded-a40d0bdc42c2)
+   ![unalias](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/15c0137b-96dc-4060-84d4-385d858a0de0)
+
+38. su command: This command allows you to run a program as a different user
+    To switch to a different user named guest, I used the command 'su guest' see screenshot below
+
+    ![su commands](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/76e80720-a6de-40dd-bc65-75e8d9144b2e)
+
+39. htop command: This is an interactive program that monitors system resources and server processes in real-time
+    After installing with the command 'sudo apt install htop' To use the command type 'htop' 'see screenshot below
+
+    ![htop1](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/adeccc1b-38fd-46ac-8abc-098550f0a7e2)
+    ![htop command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d5574f87-424a-4c6c-bdb9-47a58c5b4078)
+
     
     
