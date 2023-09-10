@@ -247,5 +247,9 @@ To delete a file, use the command 'rm Thirdfile' See screenshot below.
     ![htop1](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/adeccc1b-38fd-46ac-8abc-098550f0a7e2)
     ![htop command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/d5574f87-424a-4c6c-bdb9-47a58c5b4078)
 
-    
-    
+
+40. ps command: ps is an acronym for process status. This command produces a snapshot of all running processes in the shell.
+    It displays information like the unique process ID (PID), the type of terminal(TTY), run time (TIME), and the command that launches the process.
+    To see the process in real-time, use the command 'ps ux' See the screenshot below.
+
+    ![ps ux command](https://github.com/Nsidibeopel/LinuxPracticeProject/assets/143354400/69eddfb3-e6ba-4ed7-a8d5-1accf6e980c3)
